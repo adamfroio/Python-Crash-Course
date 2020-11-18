@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>2d4a22aa-acdc-47ef-9877-fe58486b3ccf</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>hello_python.py</StartupFile>
+    <ProjectGuid>950c82fd-414f-4641-a428-790c477b3313</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>number.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Chapter 1</Name>
-    <RootNamespace>Chapter 1</RootNamespace>
+    <Name>Chapter 2</Name>
+    <RootNamespace>Chapter 2</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +21,25 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="hello_python.py" />
+    <Compile Include="apostrophe.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="full_name.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hello_world.py" />
+    <Compile Include="lists.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="name.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="number.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="whitespace.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
